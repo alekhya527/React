@@ -1,0 +1,36 @@
+/* .bg-color{
+  background-color: khaki;
+} */
+.github-pr-page {
+  text-align: center;
+  /*background-image: linear-gradient(to bottom, #ff9900, #ff6600);*/
+  background-attachment: fixed;
+  background-size: cover;
+  width: fit-content;
+  margin: 0 auto;
+  }
+  .pull-requests {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pr-card {
+    background-color:khaki;
+    text-align: center;
+    width: 500%;
+    margin: 16px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ddd;
+    text-align: left;
+  }
+  
+  .pr-card h2 {
+    font-size: 1.5rem;
+  }
+  .image{
+    width: 50px;
+  }
+  
